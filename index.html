@@ -58,7 +58,7 @@
     function flipCard(cardElement, card) {
         if (flippedCards.length === 2 || cardElement.classList.contains('flip')) return;
         moves++;
-        moveCount.textContent = `Coups : ${moves}`;
+        moveCount.textContent = `Tries : ${moves}`;
         cardElement.classList.add('flip');
         flippedCards.push(cardElement);
 
